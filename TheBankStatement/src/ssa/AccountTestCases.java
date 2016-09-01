@@ -17,7 +17,7 @@ public class AccountTestCases {
 		acct.setDescription("Evans Account");
 		acct.setAccountBalance(100);
 		savingsAcct.setInterestRate(0.015);
-		
+		acct.setLastCheckNumber(110);
 		
 	}
 
@@ -49,5 +49,5 @@ public class AccountTestCases {
 		assertEquals(110, acct.getLastCheckNumber(),0);
 	}
 	
-
+	
 }

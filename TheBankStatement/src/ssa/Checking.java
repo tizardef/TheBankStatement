@@ -7,6 +7,7 @@ public class Checking extends Account {
 	public Checking(){}
 
 	public String accountType = null;
+	public int lastCheckNumber = 0;
 		
 	public String getAccountType() {
 		return accountType;
